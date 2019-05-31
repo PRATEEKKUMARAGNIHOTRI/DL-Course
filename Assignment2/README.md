@@ -25,4 +25,6 @@ Since there were very less relevant frames which were leading to high data imbal
 
 2. Augmrnting the data by smartly shuffeling the frames.
 
+File Models.ipynb has first four models and the fifth one can be found in file ocrWithPytesseract.ipynb
+
 A detailed analysis of these models and techniques can be found in **Assignment2.pdf**.
