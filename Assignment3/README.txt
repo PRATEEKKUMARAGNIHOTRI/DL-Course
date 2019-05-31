@@ -3,21 +3,24 @@
 ## Problem Statement
 
 
-Most of the deep learning models don't generalize across datasets. This leads to serious issues regarding their deployment in real life scenarioes.
-Here is one such problem. Using BRATS(containing brain MRI scans) data, I have to make a model to do correct predictions on the data collected from nearby Hospital.
+1. The problems are adversarial attacks. During adversarial attacks, a small calculated perturbation in the input image largely affect the classifier output. Now, the purpose is to defend classifier against those attacks.
+
+2. Succesfully train GANs and VAEs on three different datasets (CIFAR10, MNIST and FMNIST).
 
 ## Solution Overview
 
-I made a robust model by:
+Adversarial Defense:
+-------------------
 
-1- Performing Bayesian hyperparameter optimization over Unet.
+I made the classifier robust against such adverserial attacks by imposing **Lipschitz constrain** and smoothening the labels(as we do in defense distillation).
 
-2- Made the model unlearn intensity based mapping by calculative data augmentation.
+Note:
+----
 
-3- Performed histogram matching to match the statistics of data provided by Professor and BRATS data.
+1. Files Fashion_mnist.ipynb and Cifar10.ipynb contain a classifier without defence and a classifier with defence on CIFAR and FMNIST datasets.
 
-4- And Also some standard preprocessing techniques.
+2. Files DCGAN.ipynb and Fully Connected GAN.ipynb contain GANs.
 
-Not only this, I also found that my model was also robust against the extra structures present in the images collected from Hospital.
+3. A VAE architecture on FMNIST can be found in VAE Fmnist.ipynb.
 
-A detailed analysis of these techniques can be found in **Assignment1.pdf**.
+4. A detailed analysis of these techniques can be found in **Assignment3.pdf**.
