@@ -10,13 +10,13 @@ Here is one such problem. Using BRATS(containing brain MRI scans) data, I have t
 
 I made a robust model by:
 
-1- Performing Bayesian hyperparameter optimization over Unet.
+1. Performing Bayesian hyperparameter optimization over Unet.
 
-2- Made the model unlearn intensity based mapping by calculative data augmentation.
+2. Made the model unlearn intensity based mapping by calculative data augmentation.
 
-3- Performed histogram matching to match the statistics of data provided by Professor and BRATS data.
+3. Performed histogram matching to match the statistics of data provided by Professor and BRATS data.
 
-4- And Also some standard preprocessing techniques.
+4. And Also some standard preprocessing techniques.
 
 Not only this, I also found that my model was also robust against the extra structures present in the images collected from Hospital.
 
