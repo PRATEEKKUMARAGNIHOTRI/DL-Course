@@ -9,13 +9,11 @@
 
 ## Solution Overview
 
-####Adversarial Defense:
-    -------------------
+#### Adversarial Defense:
 
 I made the classifier robust against such adverserial attacks by imposing **Lipschitz constrain** and smoothening the labels(as we do in defense distillation).
 
-####Note:
-    ----
+#### Note:
 
 1. Files Fashion_mnist.ipynb and Cifar10.ipynb contain a classifier without defence and a classifier with defence on CIFAR and FMNIST datasets.
 
