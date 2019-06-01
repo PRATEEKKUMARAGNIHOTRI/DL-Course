@@ -23,7 +23,7 @@ Since there were very less relevant frames which were leading to high data imbal
 
 1. Smoothening the labels.
 
-2. Augmrnting the data by smartly shuffeling the frames.
+2. Augmenting the data by smartly shuffeling the frames.
 
 File Models.ipynb has first four models and the fifth one can be found in file ocrWithPytesseract.ipynb
 

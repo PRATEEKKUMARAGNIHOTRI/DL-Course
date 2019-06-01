@@ -15,7 +15,7 @@ I made the classifier robust against such adverserial attacks by imposing **Lips
 
 #### Note:
 
-1. Files Fashion_mnist.ipynb and Cifar10.ipynb contain a classifier without defence and a classifier with defence on CIFAR and FMNIST datasets.
+1. Files Fashion_mnist.ipynb and Cifar10.ipynb contain a classifier without defence and a classifier with defence on CIFAR and FMNIST datasets. The various attacks used to test them are FGSM and Carlini-Wagner Attack.
 
 2. Files DCGAN.ipynb and Fully Connected GAN.ipynb contain GANs.
 
