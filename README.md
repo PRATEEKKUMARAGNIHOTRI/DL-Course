@@ -14,8 +14,6 @@ The following repository has detalied code implementaion with complete analysis 
 
 5. Adversarial Defense - Lipschitz constrained Classifier, Distillation Network.
 
-6. Adversarial Attacks - FGSM, Carlini-Wagner Attack.
-
 ### Techniques Used
 
 1. Standard pre-processing like data normalization, batch normalization, instance normalization.
@@ -27,3 +25,5 @@ The following repository has detalied code implementaion with complete analysis 
 4. Data Augnentation of image and video data.
 
 5. Label smoothening.
+
+6. Adversarial Attacks - FGSM, Carlini-Wagner Attack.
