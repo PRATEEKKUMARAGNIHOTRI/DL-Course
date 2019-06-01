@@ -16,7 +16,7 @@ The following repository has detalied code implementaion with complete analysis 
 
 ### Techniques Used
 
-1. Standard pre-processing like data normalization, batch normalization, instance normalization.
+1. Standard pre-processing like data normalization, batch normalization, instance normalization, data shuffeling.
 
 2. Bayesian hyperparameter optimization.
 
