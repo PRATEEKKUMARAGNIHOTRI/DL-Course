@@ -12,7 +12,7 @@ The following repository has detalied code implementaion with complete analysis 
 
 4. GANs - Fully Connected GAN, DCGAN.
 
-5. Adversarial Defense - Lipschitz constrained Classifier, Distillation Network.
+5. Adversarial Defense - Lipschitz Constrained Classifier, Distillation Network.
 
 ### Techniques Used
 
